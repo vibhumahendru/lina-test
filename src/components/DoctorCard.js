@@ -17,7 +17,7 @@ const DoctorCard = ({ name, doctorDetails, setShow, setSelectedDoctor }) => {
         src="https://media.istockphoto.com/vectors/female-doctor-wearing-a-medical-mask-coronavirus-covid19-prevention-vector-id1209936855?k=20&m=1209936855&s=612x612&w=0&h=BoJW3yInxYT6b8auoZMCfShMfXLaHhrhP5dlMPD25Qs="
       />
       <Card.Body className="lina-theme">
-        <Card.Title>{name}</Card.Title>
+        <Card.Title>Dr. {name}</Card.Title>
         <Button onClick={() => handleSelect()} variant="custom">
           Check Availability
         </Button>
