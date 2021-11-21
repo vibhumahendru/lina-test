@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.lina-theme {
+  background-color: #FFF4F1;
+}
+
+.lina-alt-theme {
+
+}
+
+.btn-custom {
+    background-color: #4CBCC3 !important;
+    color: white !important;
+}
+
+.timezone-text{
+  color:grey;
+
+}
