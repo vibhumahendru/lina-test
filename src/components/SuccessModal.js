@@ -11,7 +11,7 @@ const SuccessModal = ({showSuccessModal, setShowSuccessModal }) => {
           </Modal.Header>
           <Modal.Body>Your appointment is confirmed!</Modal.Body>
           <Modal.Footer>
-            <Button variant="primary" onClick={()=>setShowSuccessModal(false)}>
+            <Button variant="custom" onClick={()=>setShowSuccessModal(false)}>
               Awesome!
             </Button>
           </Modal.Footer>
